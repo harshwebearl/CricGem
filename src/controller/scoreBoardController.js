@@ -166,8 +166,8 @@ exports.getScoreBoard = async (req, res) => {
 
         const updatedScoreBoard = scoreBoard[0];
 
-        const BASE_URL_TEAM = 'https://batting-api-1.onrender.com/teamPhoto/'
-        const BASE_URL_PLAYER = 'https://batting-api-1.onrender.com/playerPhoto/'
+        const BASE_URL_TEAM = 'https://cricgem-harsh.onrender.com/teamPhoto/'
+        const BASE_URL_PLAYER = 'https://cricgem-harsh.onrender.com/playerPhoto/'
 
 
         // Update team photo URLs with team base URL
@@ -288,8 +288,8 @@ exports.getScoreBoardByMatchId = async (req, res) => {
             });
         }
 
-        const BASE_URL_TEAM = 'https://batting-api-1.onrender.com/teamPhoto/';
-        const BASE_URL_PLAYER = 'https://batting-api-1.onrender.com/playerPhoto/';
+        const BASE_URL_TEAM = 'https://cricgem-harsh.onrender.com/teamPhoto/';
+        const BASE_URL_PLAYER = 'https://cricgem-harsh.onrender.com/playerPhoto/';
 
         scoreBoard.forEach((inning) => {
             inning.battingTeamDetails.logo = `${BASE_URL_TEAM}${inning.battingTeamDetails.logo}`;
@@ -476,8 +476,8 @@ exports.getScoreBoardByMatchId = async (req, res) => {
 
 //         const updatedScoreBoard = scoreBoard[0];
 
-//         const BASE_URL_TEAM = 'https://batting-api-1.onrender.com/teamPhoto/';
-//         const BASE_URL_PLAYER = 'https://batting-api-1.onrender.com/playerPhoto/';
+//         const BASE_URL_TEAM = 'https://cricgem-harsh.onrender.com/teamPhoto/';
+//         const BASE_URL_PLAYER = 'https://cricgem-harsh.onrender.com/playerPhoto/';
 
 //         // Update team photo URLs with team base URL
 //         updatedScoreBoard.battingTeamDetails.logo = `${BASE_URL_TEAM}${updatedScoreBoard.battingTeamDetails.logo}`;
@@ -748,7 +748,7 @@ exports.getUserScoreBoard = async (req, res) => {
         //     }
         // });
 
-        const BASE_URL_TEAM = 'https://batting-api-1.onrender.com/teamPhoto/'
+        const BASE_URL_TEAM = 'https://cricgem-harsh.onrender.com/teamPhoto/'
 
         let team1Score = '0/0 (0.0)';
         let team2Score = '0/0 (0.0)';

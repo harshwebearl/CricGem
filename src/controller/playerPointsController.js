@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const PointSystem = require("../models/PointSystem");
 const Match = require("../models/match");
 const League = require("../models/league");
-const baseURL = "https://batting-api-1.onrender.com/playerPhoto/"
+const baseURL = "https://cricgem-harsh.onrender.com/playerPhoto/"
 
 const getPlayerPointLeague = async (req, res) => {
     try {

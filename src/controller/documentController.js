@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const Document = require("../models/document");
 const User = require("../models/user");
-const BASE_URL = 'https://batting-api-1.onrender.com/document/'
-const BASE_URL_USER = 'https://batting-api-1.onrender.com/userImage/'
+const BASE_URL = 'https://cricgem-harsh.onrender.com/document/'
+const BASE_URL_USER = 'https://cricgem-harsh.onrender.com/userImage/'
 const Admin = require("../models/admin")
 
 

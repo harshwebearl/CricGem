@@ -614,7 +614,7 @@ exports.displayAllContestList = async (req, res) => {
             });
         }
 
-        const BASE_URL_PLAYER = 'https://batting-api-1.onrender.com/playerPhoto/'
+        const BASE_URL_PLAYER = 'https://cricgem-harsh.onrender.com/playerPhoto/'
 
         diplayList.forEach(item => {
             item.players.forEach(player => {

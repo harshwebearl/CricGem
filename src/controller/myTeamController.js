@@ -5,8 +5,8 @@ const my_team = require("../models/my_team");
 const admin = require("../models/admin");
 const notification = require("../models/notification");
 const Match = require("../models/match")
-const BASE_URL_TEAM = 'https://batting-api-1.onrender.com/teamPhoto/'
-const BASE_URL_PLAYER = 'https://batting-api-1.onrender.com/playerPhoto/'
+const BASE_URL_TEAM = 'https://cricgem-harsh.onrender.com/teamPhoto/'
+const BASE_URL_PLAYER = 'https://cricgem-harsh.onrender.com/playerPhoto/'
 
 
 exports.createMyteam = async (req, res) => {

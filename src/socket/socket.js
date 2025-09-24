@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: ["http://localhost:3000", "https://batting-api-1.onrender.com", "http://localhost:59319", "https://betting-lymk.onrender.com", "https://betting-0ick.onrender.com", "http://localhost:4000", "http://localhost:5173", "https://chat-app-frontend-dwhz.onrender.com", "http://3.108.65.195:4000"],
+        origin: ["http://localhost:3000", "https://cricgem-harsh.onrender.com", "http://localhost:59319", "https://betting-lymk.onrender.com", "https://betting-0ick.onrender.com", "http://localhost:4000", "http://localhost:5173", "https://chat-app-frontend-dwhz.onrender.com", "http://3.108.65.195:4000"],
         // origin: ["*"],
         methods: ["GET", "POST"],
     },

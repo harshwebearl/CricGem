@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Player = require("../models/player");
 const Admin = require("../models/admin");
-// const BASE_URL = 'https://batting-api-1.onrender.com/playerPhoto'
+// const BASE_URL = 'https://cricgem-harsh.onrender.com/playerPhoto'
 const fs = require('fs');
 const path = require('path');
 const { promisify } = require('util');
@@ -63,7 +63,7 @@ exports.playerDisplayList = async (req, res) => {
 
         if (playerData && playerData.length > 0) {
             // Define the base URL for player photos
-            const playerBaseUrl = "https://batting-api-1.onrender.com/playerPhoto/";
+            const playerBaseUrl = "https://cricgem-harsh.onrender.com/playerPhoto/";
 
             // Add base URL to each player's photo
             playerData.forEach(player => {
@@ -112,7 +112,7 @@ exports.playerDisplayList = async (req, res) => {
 
 //         if (playerData) {
 //             // Define the base URL for player photos
-//             const playerBaseUrl = "https://batting-api-1.onrender.com/playerPhoto/";
+//             const playerBaseUrl = "https://cricgem-harsh.onrender.com/playerPhoto/";
 
 //             // Add base URL to the player's photo
 //             if (playerData.player_photo) {
@@ -234,7 +234,7 @@ exports.displayDetails = async (req, res) => {
         }
 
         // Add base URL to the player's photo
-        const playerBaseUrl = "https://batting-api-1.onrender.com/playerPhoto/";
+        const playerBaseUrl = "https://cricgem-harsh.onrender.com/playerPhoto/";
         if (playerData[0].player_photo) {
             playerData[0].player_photo = playerBaseUrl + playerData[0].player_photo;
         }
@@ -422,7 +422,7 @@ exports.selectPlayersDetails = async (req, res) => {
                                         player_name: "$playerInfo.player_name",
                                         player_photo: {
                                             $concat: [
-                                                "https://batting-api-1.onrender.com/playerPhoto/",
+                                                "https://cricgem-harsh.onrender.com/playerPhoto/",
                                                 "$playerInfo.player_photo"
                                             ]
                                         },
@@ -467,7 +467,7 @@ exports.selectPlayersDetails = async (req, res) => {
                         team_name: "$team1Details.team_name",
                         team_logo: {
                             $concat: [
-                                "https://batting-api-1.onrender.com/teamPhoto/",
+                                "https://cricgem-harsh.onrender.com/teamPhoto/",
                                 "$team1Details.logo"
                             ]
                         },
@@ -478,7 +478,7 @@ exports.selectPlayersDetails = async (req, res) => {
                         team_name: "$team2Details.team_name",
                         team_logo: {
                             $concat: [
-                                "https://batting-api-1.onrender.com/teamPhoto/",
+                                "https://cricgem-harsh.onrender.com/teamPhoto/",
                                 "$team2Details.logo"
                             ]
                         },

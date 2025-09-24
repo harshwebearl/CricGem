@@ -8,8 +8,8 @@ const joinContest = require("../models/joinContest");
 const Match = require("../models/match");
 const League = require("../models/league");
 const PointSystem = require("../models/PointSystem");
-const BASE_URL_TEAM = 'https://batting-api-1.onrender.com/teamPhoto/'
-const BASE_URL_PROFILE = 'https://batting-api-1.onrender.com/userImage/'
+const BASE_URL_TEAM = 'https://cricgem-harsh.onrender.com/teamPhoto/'
+const BASE_URL_PROFILE = 'https://cricgem-harsh.onrender.com/userImage/'
 
 
 

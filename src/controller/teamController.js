@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const Team = require("../models/team");
 const Admin = require("../models/admin");
-const BASE_URL = 'https://batting-api-1.onrender.com/teamPhoto/'
-const BASE_URL_PLAYER = 'https://batting-api-1.onrender.com/playerPhoto/'
+const BASE_URL = 'https://cricgem-harsh.onrender.com/teamPhoto/'
+const BASE_URL_PLAYER = 'https://cricgem-harsh.onrender.com/playerPhoto/'
 const fs = require('fs');
 const path = require('path');
 const { promisify } = require('util');

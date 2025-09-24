@@ -49,7 +49,7 @@ exports.getMatchScore = async (req, res) => {
                 message: "MatchScore not found",
             });
         }
-        const BASE_URL_TEAM = 'https://batting-api-1.onrender.com/teamPhoto/'
+        const BASE_URL_TEAM = 'https://cricgem-harsh.onrender.com/teamPhoto/'
 
 
         matchScore[0].team1.teamDetails.logo = BASE_URL_TEAM + matchScore[0].team1.teamDetails.logo;
@@ -121,7 +121,7 @@ exports.getMatchSuperOverScore = async (req, res) => {
                 message: "MatchScore not found",
             });
         }
-        const BASE_URL_TEAM = 'https://batting-api-1.onrender.com/teamPhoto/'
+        const BASE_URL_TEAM = 'https://cricgem-harsh.onrender.com/teamPhoto/'
 
 
         matchScore[0].team1.teamDetails.logo = BASE_URL_TEAM + matchScore[0].team1.teamDetails.logo;
@@ -193,7 +193,7 @@ exports.getMatchSecoundSuperOverScore = async (req, res) => {
                 message: "MatchScore not found",
             });
         }
-        const BASE_URL_TEAM = 'https://batting-api-1.onrender.com/teamPhoto/'
+        const BASE_URL_TEAM = 'https://cricgem-harsh.onrender.com/teamPhoto/'
 
 
         matchScore[0].team1.teamDetails.logo = BASE_URL_TEAM + matchScore[0].team1.teamDetails.logo;

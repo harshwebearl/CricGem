@@ -5,7 +5,7 @@ const Wallet = require('../models/wallet'); // Import the Wallet model
 const Transaction = require('../models/transaction');
 const Notification = require('../models/notification');
 const { getReceiverSocketId, io } = require('../socket/socket');
-const BASE_URL = "https://batting-api-1.onrender.com/userImage/";
+const BASE_URL = "https://cricgem-harsh.onrender.com/userImage/";
 const moment = require('moment');
 
 

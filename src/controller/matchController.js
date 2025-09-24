@@ -8,8 +8,8 @@ const MatchScore = require("../models/MatchScore");
 const ScoreBoard = require("../models/ScoreBoard");
 const Notification = require("../models/notification");
 const { getReceiverSocketId, io } = require("../socket/socket");
-const BASE_URL_TEAM = 'https://batting-api-1.onrender.com/teamPhoto/'
-const BASE_URL_PLAYER = 'https://batting-api-1.onrender.com/playerPhoto/'
+const BASE_URL_TEAM = 'https://cricgem-harsh.onrender.com/teamPhoto/'
+const BASE_URL_PLAYER = 'https://cricgem-harsh.onrender.com/playerPhoto/'
 
 exports.insertMatch = async (req, res) => {
     try {

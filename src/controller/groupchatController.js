@@ -58,7 +58,7 @@ exports.insertChat = async (req, res) => {
 //         }
 
 //         // Define the base URL for profile photos
-//         const BASE_URL = "https://batting-api-1.onrender.com/userImage/";
+//         const BASE_URL = "https://cricgem-harsh.onrender.com/userImage/";
 
 
 //         // Aggregate to fetch chat messages along with sender details
@@ -149,7 +149,7 @@ exports.insertChat = async (req, res) => {
 //         }
 
 //         // Define the base URL for profile photos
-//         const BASE_URL = "https://batting-api-1.onrender.com/userImage/";
+//         const BASE_URL = "https://cricgem-harsh.onrender.com/userImage/";
 
 //         // Aggregate to fetch chat messages along with sender details
 //         let chatMessages = await Groupchat.aggregate([
@@ -298,7 +298,7 @@ exports.allDisplayChat = async (req, res) => {
         const limit = parseInt(req.query.limit) || 100;  // Default to 10 messages per page if not provided
 
         // Define the base URL for profile photos
-        const BASE_URL = "https://batting-api-1.onrender.com/userImage/";
+        const BASE_URL = "https://cricgem-harsh.onrender.com/userImage/";
 
         // First, count the total number of chat messages for pagination info
         const totalMessages = await Groupchat.countDocuments();

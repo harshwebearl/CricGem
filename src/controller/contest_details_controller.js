@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const ContestDetails = require("../models/contest_detail");
 const Admin = require("../models/admin");
-const BASE_URL_TEAM = 'https://batting-api-1.onrender.com/teamPhoto/'
-const BASE_URL_PLAYER = 'https://batting-api-1.onrender.com/playerPhoto/'
+const BASE_URL_TEAM = 'https://cricgem-harsh.onrender.com/teamPhoto/'
+const BASE_URL_PLAYER = 'https://cricgem-harsh.onrender.com/playerPhoto/'
 
 
 

@@ -9,7 +9,7 @@ const Wallet = require("../models/wallet");
 const my_team = require("../models/my_team");
 const moment = require('moment');
 const wallet = require("../models/wallet");
-const BASE_URL = "https://batting-api-1.onrender.com/userImage";
+const BASE_URL = "https://cricgem-harsh.onrender.com/userImage";
 const JoinContest = require("../models/joinContest");
 const contest_detail = require("../models/contest_detail");
 // const transaction = require("../models/transaction");
@@ -569,8 +569,8 @@ exports.displayAllContest = async (req, res) => {
 };
 
 
-const BASE_URL_TEAM = "https://batting-api-1.onrender.com/teamPhoto/";
-const BASE_URL_PLAYER = "https://batting-api-1.onrender.com/playerPhoto/";
+const BASE_URL_TEAM = "https://cricgem-harsh.onrender.com/teamPhoto/";
+const BASE_URL_PLAYER = "https://cricgem-harsh.onrender.com/playerPhoto/";
 
 function resetTimeToMidnight(dateString) {
     const date = new Date(dateString);
@@ -1245,7 +1245,7 @@ exports.getUserMatches = async (req, res) => {
         let tomorrowEnd = moment().add(1, 'days').endOf('day').toDate();
         let threeDaysAgo = moment().subtract(3, 'days').startOf('day').toDate();
 
-        const BASE_URL_TEAM = "https://batting-api-1.onrender.com/teamPhoto/";
+        const BASE_URL_TEAM = "https://cricgem-harsh.onrender.com/teamPhoto/";
 
         let liveMatches = await JoinContest.aggregate([
             {

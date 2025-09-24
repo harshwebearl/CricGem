@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Advertise = require("../models/advertise");
-const BASE_URL = "https://batting-api-1.onrender.com/ads/";
+const BASE_URL = "https://cricgem-harsh.onrender.com/ads/";
 
 
 

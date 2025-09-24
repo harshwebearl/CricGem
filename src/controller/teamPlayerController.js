@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 const TeamPlayer = require("../models/team_player");
 const Admin = require("../models/admin");
 const Team = require("../models/team");
-const BASE_URL_TEAM = 'https://batting-api-1.onrender.com/teamPhoto/'
-const BASE_URL_PLAYER = 'https://batting-api-1.onrender.com/playerPhoto/'
+const BASE_URL_TEAM = 'https://cricgem-harsh.onrender.com/teamPhoto/'
+const BASE_URL_PLAYER = 'https://cricgem-harsh.onrender.com/playerPhoto/'
 
 exports.createTeamPlayer = async (req, res) => {
     try {
